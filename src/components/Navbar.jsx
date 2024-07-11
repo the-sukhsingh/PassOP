@@ -10,12 +10,12 @@ const Navbar = () => {
         </span>
         <span className='font-extrabold'>OP/&gt;</span>
         </div>
-    <div className='text-2xl text-white flex gap-3 cursor-pointer' >
-        <a href="http://" className='flex gap-3'>
-        Github
-        <img className='invert w-8' src="/icons/github.svg" alt="" />
-        </a>
-    </div>
+        <div className='text-white text-2xl font-bold'>
+            <a href="https://github.com/the-sukhsingh/PassOP" target='_blank' className='flex gap-4'>
+            Github
+            <img src="icons/github.svg" width={32} alt="" />
+            </a>
+        </div>
 </nav>
   )
 }
