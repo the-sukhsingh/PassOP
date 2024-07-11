@@ -158,7 +158,7 @@ const Manager = () => {
                     <div className='flex md:w-2/5 gap-3 mt-2 md:mt-0 md:gap-0'>
                     <div className='w-1/2 md:w-[45%] flex justify-between pr-5 items-center'>{item.form.username}
                         <button className='btn mx-1 h-[25px]' >
-                            <img onClick={() => { copyText(item.form.username) }} width={18} src="public/icons/copy.svg" alt="" />
+                            <img onClick={() => { copyText(item.form.username) }} width={18} src="icons/copy.svg" alt="" />
                         </button>
                     </div>
                     <div className='w-1/2 md:w-[45%] flex justify-between px-3 items-center'>
@@ -166,7 +166,7 @@ const Manager = () => {
                             item.form.password
                         }
                         <button className='btn mx-1 h-[25px]' >
-                            <img onClick={() => { copyText(item.form.password) }} width={18} src="public/icons/copy.svg" alt="" />
+                            <img onClick={() => { copyText(item.form.password) }} width={18} src="icons/copy.svg" alt="" />
                         </button>
                     </div>
                     </div>
