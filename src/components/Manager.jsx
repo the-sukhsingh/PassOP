@@ -156,12 +156,12 @@ const Manager = () => {
                     <div className='w-[85%]'><a className='block' href={item.form.site} target="_blank">{item.form.site}</a></div>
                     </div>
                     <div className='flex md:w-2/5 gap-3 mt-2 md:mt-0 md:gap-0'>
-                    <div className='w-1/2 md:w-[45%] flex justify-between pr-5 items-center'>{item.form.username}
+                    <div className='md:w-1/2 md:w-[45%] flex justify-between pr-5 items-center'>{item.form.username}
                         <button className='btn mx-1 h-[25px]' >
                             <img onClick={() => { copyText(item.form.username) }} width={18} src="icons/copy.svg" alt="" />
                         </button>
                     </div>
-                    <div className='w-1/2 md:w-[45%] flex justify-between px-3 items-center'>
+                    <div className='md:w-1/2 md:w-[45%] flex justify-between px-3 items-center'>
                         {
                             item.form.password
                         }
