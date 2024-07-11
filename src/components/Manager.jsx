@@ -139,7 +139,7 @@ const Manager = () => {
                 </div>
             </div>
         </div>
-        <div className="passwords border-2 mt-4 border-black flex flex-col items-center w-[95%] md:w-3/4 mx-auto min-h-[30vh] mb-16 rounded-br-[28px] rounded-tl-[28px]">
+        <div className="passwords border-2 mt-4 border-black flex flex-col items-center w-[95%] md:w-3/4 mx-auto min-h-[30vh] mb-44 rounded-br-[28px] rounded-tl-[28px]">
             <h1 className='text-3xl font-bold mt-4'>Your Passwords</h1>
             <div className="flex border border-black w-[95%] px-4 py-[6px] my-3 bg-[#23253b] text-white text-[18px] rounded-2xl">
                 <div className='w-[9%]'>Sr. No.</div>
@@ -158,7 +158,7 @@ const Manager = () => {
                     <div className='flex md:w-2/5 gap-3 mt-2 md:mt-0 md:gap-0'>
                     <div className='w-1/2 md:w-[45%] flex justify-between pr-5 items-center'>{item.form.username}
                         <button className='btn mx-1 h-[25px]' >
-                            <img onClick={() => { copyText(item.form.username) }} width={18} src="/icons/copy.svg" alt="" />
+                            <img onClick={() => { copyText(item.form.username) }} width={18} src="public/icons/copy.svg" alt="" />
                         </button>
                     </div>
                     <div className='w-1/2 md:w-[45%] flex justify-between px-3 items-center'>
@@ -166,7 +166,7 @@ const Manager = () => {
                             item.form.password
                         }
                         <button className='btn mx-1 h-[25px]' >
-                            <img onClick={() => { copyText(item.form.password) }} width={18} src="/icons/copy.svg" alt="" />
+                            <img onClick={() => { copyText(item.form.password) }} width={18} src="public/icons/copy.svg" alt="" />
                         </button>
                     </div>
                     </div>

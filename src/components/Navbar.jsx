@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='text-white text-2xl font-bold'>
             <a href="https://github.com/the-sukhsingh/PassOP" target='_blank' className='flex gap-4'>
             Github
-            <img src="icons/github.svg" width={32} alt="" />
+            <img className='invert' src="icons/github.svg" width={32} alt="" />
             </a>
         </div>
 </nav>
