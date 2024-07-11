@@ -10,20 +10,12 @@ const Navbar = () => {
         </span>
         <span className='font-extrabold'>OP/&gt;</span>
         </div>
-    <ul className='flex gap-5 text-white text-[18px]'>
-        <li>
-            <a href='#'>Home</a>
-        </li>
-        <li>
-            <a href='#'>About</a>
-        </li>
-        <li>
-            <a href='#'>Services</a>
-        </li>
-        <li>
-            <a href='#'>Contact</a>
-        </li>
-    </ul>
+    <div className='text-2xl text-white flex gap-3 cursor-pointer' >
+        <a href="http://" className='flex gap-3'>
+        Github
+        <img className='invert w-8' src="/icons/github.svg" alt="" />
+        </a>
+    </div>
 </nav>
   )
 }
